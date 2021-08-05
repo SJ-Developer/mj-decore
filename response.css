@@ -1,0 +1,263 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1100px) {
+  /* .navbar{} */
+/* .nav-list{} */
+.nav-list{
+  flex-direction: column;
+} 
+.navbar{
+height: 500px;
+  flex-direction: column;
+  transition: all 0.5s ease-out;
+}
+.h-nav{
+  height: 65px;
+  /* width: 100%; */
+}
+.v-class{
+  opacity: 0;
+}
+.burger{
+  display: block;
+}
+.nav-list li{
+    padding: 15px 30px;
+}
+.nav-list li a{
+    font-size: 18px;
+}
+/* .nav-list li a:hover{} */
+.logo{
+    width: 27%;
+}
+.logo img{
+    width: 70px;
+    margin: 8px;
+}
+  .firstSection{
+    height: 40rem;
+  }
+  .heading{
+    font-size: 85px;
+  }
+ .animation span{
+    font-size: 37px;
+ }
+ /* .midSection{} */
+/* .left{} */
+.thumbnail{
+  width: 500px;
+}
+.thumbnail img{
+  width: 90%;
+}
+.text-Big{
+  font-size: 30px;
+  font-weight: 550;
+}
+.text-small{
+  font-size: 20px;
+}
+.terms{
+  margin: 15px 0px;
+}
+/* .terms-content{} */
+.terms-content h1{
+  font-size: 30px;
+  margin: 20px auto;
+}
+.timeline {
+  max-width: 1100px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  width: 5px;
+}
+
+/* Container around content */
+.container {
+  padding: 8px 35px;
+}
+
+/* The circles on the timeline */
+.container::after {
+  width: 23px;
+  height: 23px;
+  right: -15px;
+  top: 14px;
+}
+
+/* Place the container to the left */
+/* .left {} */
+
+/* Place the container to the right */
+/* .right {} */
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  top: 20px;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  top: 20px;
+  left: 28px;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -14px;
+}
+
+/* The actual content */
+.content {
+  padding: 18px 28px;
+}
+.contact{
+  margin: 28px 0px;
+}
+.text-contact{
+  padding: 28px;
+  font-size: 46px;
+}
+/* .text-contact-sm{} */
+.form{
+  width: 32rem;
+  margin: 28px auto;
+  padding: 20px;
+  font-size: 20px;
+}
+/* .form input{} */
+/* .form textarea{} */
+.btn-dark{
+  padding: 5px 10px;
+  font-size: 19px;
+}
+/* .btn-dark:hover{} */
+.con a img{
+  height: 60px;
+  width: 60px;
+  margin: 0px 45px;
+  padding: 4px;
+}
+footer{
+  font-size: 20px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .nav-list li{
+        padding: 12px 25px;
+    }
+    .nav-list li a{
+        font-size: 15px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    
+    .logo{
+        justify-content: center;
+    }
+    .firstSection{
+        height: 28rem;
+      }
+      .heading{
+        font-size: 60px;
+      }
+     .animation span{
+        font-size: 25px;
+     }
+    .terms{
+        margin: 15px 0px;
+      }
+      /* .terms-content{} */
+      .terms-content h1{
+        font-size: 25px;
+        margin: 15px auto;
+      }
+      .timeline {
+        max-width: 600px;
+      }
+      
+      /* The actual timeline (the vertical ruler) */
+      .timeline::after {
+        /* width: 5px; */
+        display: none;
+        visibility: hidden;
+      }
+      
+      /* Container around content */
+      .container {
+        padding: 5px 30px;
+      }
+      
+      /* The circles on the timeline */
+      .container::after {
+        width: 23px;
+        height: 23px;
+        right: -15px;
+        top: 14px;
+        visibility: hidden;
+      }
+      
+      /* Place the container to the left */
+      /* .left {} */
+      
+      /* Place the container to the right */
+      /* .right {} */
+      
+      /* Add arrows to the left container (pointing right) */
+      .left::before {
+        top: 20px;
+        visibility: hidden;
+      }
+      
+      /* Add arrows to the right container (pointing left) */
+      .right::before {
+        top: 20px;
+        left: 28px;
+        visibility: hidden;
+      }
+      
+      /* Fix the circle for containers on the right side */
+      .right::after {
+        left: -14px;
+        visibility: hidden;
+      }
+      
+      /* The actual content */
+      .content {
+        padding: 18px 28px;
+      }
+      .info{
+        margin: 10px 0px;
+        /* border-radius: 40px; */
+        display: flex;
+        height: fit-content;
+        flex-wrap: wrap;
+        background: rgb(73, 73, 73);
+        background-attachment: fixed;
+    }
+    .last-info{
+        margin: 0px 30px;
+        margin-top: 30px;
+    }
+    .last-info li{
+        list-style: none;
+        margin: 5px 0px;
+    }
+    .in{
+        margin: auto;
+        padding: auto;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {} */
