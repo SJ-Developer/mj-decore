@@ -1,0 +1,647 @@
+@media only screen and (max-width: 1100px){
+/* .navbar{} */
+/* .nav-list{} */
+.nav-list li{
+    padding: 15px 40px;
+    margin: 0px;
+}
+.nav-list li a{
+    font-size: 20px;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 70px;
+    margin: 8px;
+}
+.firstSection{
+    z-index: 1;
+    height: 40rem;
+}
+.main{
+    height: 80%;
+    width: 80%;
+}
+.heading{
+    color: white;
+    font-size: 80px;
+    padding: 10px 10px;
+    margin: 10px auto;
+}
+.animation span{
+    font-size: 35px;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+.midSection{
+    margin: 8px 0px;
+    padding: 10px;
+}
+.thumbnail{
+    width: 550px;
+}
+.thumbnail img{
+    width: 95%;
+}
+.text-Big{
+    font-size: 30px;
+    font-weight: 600;
+}
+.text-small{
+    font-size: 19px;
+}
+.terms{
+    margin: 18px 0px;
+}
+/* .terms-content{} */
+.terms-content h1{
+    font-size: 33px;
+    margin: 22px auto;
+}
+.contact{
+    margin: 28px 0px;
+}
+.text-contact{
+    padding: 30px;
+    font-size: 45px;
+}
+.form{
+    width: 35rem;
+    margin: 28px auto;
+    padding: 20px;
+    font-size: 20px;
+}
+.form input{
+    width: 90%;
+    padding: 5px 3px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.form textarea{
+    width: 90%;
+    padding: 5px 3px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.btn-dark{
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.info{
+    margin: 15px 0px;
+}
+.last-info{
+    margin: 0px 50px;
+    margin-top: 40px;
+}
+.last-info li{
+    margin: 10px 0px;
+}
+.con a img{
+    height: 70px;
+    width: 70px;
+    margin: 0px 40px;
+    padding: 5px;
+}
+footer{
+    font-size: 22px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 850px){
+  .navbar{
+    height: 65px;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+  }
+ .nav-list{
+  flex-direction: column;
+  opacity: 0;
+ }
+ .h-nav{
+  height: fit-content;
+  transition: all 0.5s ease-in-out;
+} 
+.v-class{
+  opacity: 1;
+}
+.burger{
+display: block;
+}
+ .nav-list li{
+  padding: 15px 40px;
+  margin: 0px;
+ }
+ .nav-list li a{
+  font-size: 20px;
+ }
+ .logo{
+  width: 25%;
+  justify-content: center;
+ }
+ .logo img{
+  width: 70px;
+  margin: 8px;
+ }
+ .firstSection{
+  z-index: 1;
+  height: 40rem;
+ }
+ .main{
+  height: 80%;
+  width: 80%;
+ }
+ .heading{
+  color: white;
+  font-size: 80px;
+  padding: 10px 10px;
+  margin: 10px auto;
+ }
+ .animation span{
+  font-size: 35px;
+  margin: 10px auto;
+  padding: 10px 10px;
+ }
+ .midSection{
+  margin: 8px 0px;
+  padding: 10px;
+ }
+ .thumbnail{
+  width: 550px;
+ }
+ .thumbnail img{
+  width: 95%;
+ }
+ .text-Big{
+  font-size: 30px;
+  font-weight: 600;
+ }
+ .text-small{
+  font-size: 19px;
+ }
+ .terms{
+  margin: 18px 0px;
+ }
+ /* .terms-content{} */
+ .terms-content h1{
+  font-size: 33px;
+  margin: 22px auto;
+ }
+ .contact{
+  margin: 28px 0px;
+ }
+ .text-contact{
+  padding: 30px;
+  font-size: 45px;
+ }
+ .form{
+  width: 35rem;
+  margin: 28px auto;
+  padding: 20px;
+  font-size: 20px;
+ }
+ .form input{
+  width: 90%;
+  padding: 5px 3px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.form textarea{
+  width: 90%;
+  padding: 5px 3px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.btn-dark{
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 20px;
+ }
+ .info{
+  margin: 15px 0px;
+ }
+ .last-info{
+  margin: 0px 50px;
+  margin-top: 40px;
+ }
+ .last-info li{
+  margin: 10px 0px;
+ }
+ .con a img{
+  height: 70px;
+  width: 70px;
+  margin: 0px 40px;
+  padding: 5px;
+ }
+ footer{
+  font-size: 22px;
+ }
+}
+
+
+
+
+@media only screen and (max-width: 560px){
+  .navbar{
+    height: 65px;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+  }
+ .nav-list{
+  flex-direction: column;
+  opacity: 0;
+ }
+ .h-nav{
+  height: fit-content;
+  transition: all 0.5s ease-in-out;
+} 
+.v-class{
+  opacity: 1;
+}
+.burger{
+display: block;
+}
+ .nav-list li{
+  padding: 15px 40px;
+  margin: 0px;
+ }
+ .nav-list li a{
+  font-size: 20px;
+ }
+ .logo{
+  width: 25%;
+  justify-content: center;
+ }
+ .logo img{
+  width: 70px;
+  margin: 8px;
+ }
+ .firstSection{
+  z-index: 1;
+  height: 40rem;
+ }
+ .main{
+  height: 80%;
+  width: 80%;
+ }
+ .heading{
+  color: white;
+  font-size: 70px;
+  padding: 10px 10px;
+  margin: 10px auto;
+ }
+ .animation span{
+  font-size: 25px;
+  margin: 10px auto;
+  padding: 10px 10px;
+ }
+ .midSection{
+  margin: 8px 0px;
+  padding: 10px;
+ }
+ .thumbnail{
+  width: 550px;
+ }
+ .thumbnail img{
+  width: 95%;
+ }
+ .text-Big{
+  font-size: 30px;
+  font-weight: 600;
+ }
+ .text-small{
+  font-size: 19px;
+ }
+ .terms{
+  margin: 18px 0px;
+ }
+ /* .terms-content{} */
+ .terms-content h1{
+  font-size: 33px;
+  margin: 22px auto;
+ }
+ .contact{
+  margin: 28px 0px;
+ }
+ .text-contact{
+  padding: 30px;
+  font-size: 45px;
+ }
+ .form{
+  width: 30rem;
+  margin: 28px auto;
+  padding: 20px;
+  font-size: 20px;
+ }
+ .form input{
+  width: 90%;
+  padding: 5px 3px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.form textarea{
+  width: 90%;
+  padding: 5px 3px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.btn-dark{
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 20px;
+ }
+ .info{
+  margin: 15px 0px;
+ }
+ .last-info{
+  margin: 0px 50px;
+  margin-top: 40px;
+ }
+ .last-info li{
+  margin: 10px 0px;
+ }
+ .con a img{
+  height: 70px;
+  width: 70px;
+  margin: 0px 20px;
+  padding: 5px;
+ }
+ footer{
+  font-size: 22px;
+ }
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+  .navbar{
+    height: 65px;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+  }
+ .nav-list{
+  flex-direction: column;
+  opacity: 0;
+ }
+ .h-nav{
+  height: fit-content;
+  transition: all 0.5s ease-in-out;
+} 
+.v-class{
+  opacity: 1;
+}
+.burger{
+display: block;
+}
+ .nav-list li{
+  padding: 15px 40px;
+  margin: 0px;
+ }
+ .nav-list li a{
+  font-size: 20px;
+ }
+ .logo{
+  width: 25%;
+  justify-content: center;
+ }
+ .logo img{
+  width: 70px;
+  margin: 8px;
+ }
+ .firstSection{
+  z-index: 1;
+  height: 30rem;
+ }
+ .main{
+  height: 80%;
+  width: 80%;
+ }
+ .heading{
+  color: white;
+  font-size: 45px;
+  padding: 10px 10px;
+  margin: 10px auto;
+ }
+ .animation span{
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 10px 10px;
+ }
+ .midSection{
+  margin: 8px 0px;
+  padding: 10px;
+ }
+ .thumbnail{
+  width: 550px;
+ }
+ .thumbnail img{
+  width: 95%;
+ }
+ .text-Big{
+  font-size: 30px;
+  font-weight: 600;
+ }
+ .text-small{
+  font-size: 19px;
+ }
+ .terms{
+  margin: 18px 0px;
+ }
+ /* .terms-content{} */
+ .terms-content h1{
+  font-size: 33px;
+  margin: 22px auto;
+ }
+ .contact{
+  margin: 28px 0px;
+ }
+ .text-contact{
+  padding: 30px;
+  font-size: 45px;
+ }
+ .form{
+  width: 20rem;
+  margin: 28px auto;
+  padding: 20px;
+  font-size: 20px;
+ }
+ .form input{
+  width: 90%;
+  padding: 5px 3px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.form textarea{
+  width: 90%;
+  padding: 5px 3px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.btn-dark{
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 20px;
+ }
+ .info{
+  margin: 15px 0px;
+ }
+ .last-info{
+  margin: 0px 50px;
+  margin-top: 40px;
+ }
+ .last-info li{
+  margin: 10px 0px;
+ }
+ .con a img{
+  height: 70px;
+  width: 70px;
+  margin: 0px 20px;
+  padding: 5px;
+ }
+ footer{
+  font-size: 22px;
+ }
+}
+
+
+
+
+@media only screen and (max-width: 320px){
+  .navbar{
+    height: 65px;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+  }
+ .nav-list{
+  flex-direction: column;
+  opacity: 0;
+ }
+ .h-nav{
+  height: fit-content;
+  transition: all 0.5s ease-in-out;
+} 
+.v-class{
+  opacity: 1;
+}
+.burger{
+display: block;
+}
+ .nav-list li{
+  padding: 15px 40px;
+  margin: 0px;
+ }
+ .nav-list li a{
+  font-size: 20px;
+ }
+ .logo{
+  width: 25%;
+  justify-content: center;
+ }
+ .logo img{
+  width: 70px;
+  margin: 8px;
+ }
+ .firstSection{
+  z-index: 1;
+  height: 30rem;
+ }
+ .main{
+  height: 80%;
+  width: 80%;
+ }
+ .heading{
+  color: white;
+  font-size: 45px;
+  padding: 10px 10px;
+  margin: 10px auto;
+ }
+ .animation span{
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 10px 10px;
+ }
+ .midSection{
+  margin: 8px 0px;
+  padding: 10px;
+ }
+ .thumbnail{
+  width: 550px;
+ }
+ .thumbnail img{
+  width: 95%;
+ }
+ .text-Big{
+  font-size: 30px;
+  font-weight: 600;
+ }
+ .text-small{
+  font-size: 19px;
+ }
+ .terms{
+  margin: 18px 0px;
+ }
+ /* .terms-content{} */
+ .terms-content h1{
+  font-size: 33px;
+  margin: 22px auto;
+ }
+ .contact{
+  margin: 28px 0px;
+ }
+ .text-contact{
+  padding: 30px;
+  font-size: 45px;
+ }
+ .form{
+  width: 17rem;
+  margin: 28px auto;
+  padding: 20px;
+  font-size: 20px;
+ }
+ .form input{
+  width: 90%;
+  padding: 5px 3px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.form textarea{
+  width: 90%;
+  padding: 5px 3px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.btn-dark{
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 20px;
+ }
+ .info{
+  margin: 15px 0px;
+ }
+ .last-info{
+  margin: 0px 50px;
+  margin-top: 40px;
+ }
+ .last-info li{
+  margin: 10px 0px;
+ }
+ .con a img{
+  height: 70px;
+  width: 70px;
+  margin: 0px 20px;
+  padding: 5px;
+ }
+ footer{
+  font-size: 22px;
+ }
+}
